@@ -1,10 +1,10 @@
 # What is this?
 
-invert.js is a function that will toggle invert on the colors of your whole page for a dummy dark/light mode switch.
+invert.js is a package that will toggle invert on the colors of your whole page for a dummy dark/light mode switch. It contains two files, the invert.js and an invert.css stylesheet.
 
 # Installation
 
-invertit.js is an amazing module that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
+invertit.js is an amazing package that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
 
 1. 
 to install with npm, run `npm i invertit`

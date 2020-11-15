@@ -2,21 +2,35 @@
 
 invert.js is a function that will toggle invert on the colors of your whole page for a dummy dark/light mode switch.
 
-# Installation w/ npm
-with npm package manager:
-`npm i toggleInvert`
+# Installation
 
-with CDN, add this to the bottom of your html body:
-`<script src="https://cdn.jsdelivr.net/gh/alexanderjarl91/invert@v4f7d7af/invert.js"</script`
+invertit.js is an amazing module that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
 
-then import `import { toggleInvert } from 'toggleInvert';` in your .js file
+1. 
+to install with npm, run `npm i invertit`
 
-then add `.invert-mode {
-  filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
-  -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
-}` to your css
+or import with cdn: `https://cdn.jsdelivr.net/gh/alexanderjarl91/invert@v4f7d7af/invert.js`
 
-then make a button run toggleInvert() on click.
+2. 
+then link to the css in your .html
+`<link rel="stylesheet" href="node_modules/invertit/invert.css">`
+
+or cdn
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexanderjarl91/invert/invert.css">`
+
+then..
+
+import the function to your js file
+
+`import { toggleInvert } from "./node_modules/invertit/invert.js";`
+
+then 
+
+then run toggleInvert() function on the click of a button for example.
+
+happy camping!
+
 
 
 
